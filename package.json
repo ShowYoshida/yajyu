@@ -1,0 +1,33 @@
+{
+  "name": "810bot",
+  "version": "1.0.0",
+  "description": "discordbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShowYoshida/810bot.git"
+  },
+  "engines": {
+    "node": "8.0.0",
+    "npm": "5.5.1"
+  },
+  "author": "ShowYoshida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShowYoshida/810bot/issues"
+  },
+  "dependencies": {
+    "bufferutil": "^3.0.2",
+    "discord.js": "^11.2.1",
+    "dotenv": "^4.0.0",
+    "erlpack": "github:hammerandchisel/erlpack",
+    "express": "^3.21.2",
+    "ffmpeg-binaries": "^3.2.2-3",
+    "libsodium-wrappers": "^0.5.4",
+    "node-opus": "^0.2.6",
+    "uws": "^8.14.1"
+  }
+}
