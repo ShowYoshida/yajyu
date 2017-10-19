@@ -6,36 +6,37 @@ This is a DiscordBot.
 
 must Install 
 
-`node.js`
+`nvm` or `nodebrew` for install node.js.
 
-`nvm`
+`node.js ver8.0.0`
 
 `npm`
 
 
 ## How to Use 810Bot on local?
 
-u must hit the
+u need make a Discord BotUser and swag him token.
 
-`$ npm install`
+when u already get them,
 
-starting install some libries.
+please make a file of `.env` and write in this way
 
-when u end then
+`DiscordToken = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX`
 
-`$ node index.js`
+pls replace some XXX for ur BotUser token.
 
-open ur discord and server.
+Install modules
+`npm install`
 
-810Senpai is still online.
-
+Letstart.
+`node index.js`
 
 ## Commands
 
-`/join`
+`*join`
 810Senpai connect to ur voicechannel.
 
-if u not connecting voicechannel, u will take a blame from Senpai.
+if u not connecting voice channel, u will take a blame from Senpai.
 
-`/leave`
-810Senpai go away.
+`*leave`
+810Senpai go away from connected voice channels.
